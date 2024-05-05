@@ -27,9 +27,9 @@ let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
-let DLS = 4;//速度下限
+let DLS = 6;//速度下限
 let addressescsv = [
-	//'https://cf-workers-text2kv-ein.pages.dev/ip.txt?token=text2kv', //iptest测速结果文件。
+	//'https://cf-workers-text2kv-ein.pages.dev/cesu.csv?token=text2kv', //iptest测速结果文件。
 ];
 
 let subconverter = "apiurl.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
