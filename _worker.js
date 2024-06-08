@@ -91,8 +91,8 @@ let addressesnotlsapi = [
 
 let DLS = 8;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', 
-	//'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/result.csv', //iptest测速结果文件。
+	//'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/result.csv', 
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
 ];
 
 let subconverter = "url.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
