@@ -16,6 +16,8 @@ let addresses = [
 'icook.hk:8443#香港',
 'cfip.xxxxxxxx.tk#官方优选-otc提供',
 'hk.100366.xyz#香港',
+];
+
 
 // 设置优选地址api接口
 let addressesapi = [
