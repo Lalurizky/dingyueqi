@@ -45,6 +45,11 @@ let addresses = [
 'cf.090227.xyz:443',
 'sp.rweek.top:443',
 'hk.rweek.top:2052',
+'icook.tw:2053#优选域名',
+'cloudflare.cfgo.cc#优选官方线路',
+'icook.hk:8443#香港',
+'cfip.xxxxxxxx.tk#官方优选-otc提供',
+'hk.100366.xyz#香港',
 	
 
 ];
@@ -52,7 +57,8 @@ let addresses = [
 // 设置优选地址api接口
 let addressesapi = [
 	'https://cf-workers-text2kv-ein.pages.dev/ip.txt?token=text2kv, 
-	'https://raw.githubusercontent.com/ymyuuu/IPDB/main/bestcf.txt,//可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/ymyuuu/IPDB/main/bestcf.txt,
+	'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/ip.txt,//可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt, //IPv6优选内容格式 自行搭建。
 ];
 
@@ -68,7 +74,7 @@ let addressesnotlsapi = [
 	'https://cf-workers-text2kv-ein.pages.dev/cesu.csv?token=text2kv', //可参考内容格式 自行搭建。
 ];
 
-let DLS = 8;//速度下限
+let DLS = 6;//速度下限
 let addressescsv = [
 	//'https://cf-workers-text2kv-ein.pages.dev/cesu.csv?token=text2kv', //iptest测速结果文件。
 ];
