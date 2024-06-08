@@ -56,9 +56,9 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://cf-workers-text2kv-ein.pages.dev/ip.txt?token=text2kv, 
+	'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/ip.txt,
 	'https://raw.githubusercontent.com/ymyuuu/IPDB/main/bestcf.txt,
-	'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/ip.txt,//可参考内容格式 自行搭建。
+	'https://cf-workers-text2kv-ein.pages.dev/ip.txt?token=text2kv, //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt, //IPv6优选内容格式 自行搭建。
 ];
 
