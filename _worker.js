@@ -76,6 +76,7 @@ let addressesnotlsapi = [
 
 let DLS = 6;//速度下限
 let addressescsv = [
+	//'https://raw.githubusercontent.com/dockkkk/CF-WORKERS/main/result.csv',
 	//'https://cf-workers-text2kv-ein.pages.dev/cesu.csv?token=text2kv', //iptest测速结果文件。
 ];
 
