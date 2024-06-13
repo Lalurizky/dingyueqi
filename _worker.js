@@ -42,8 +42,8 @@ let link = '';
 let edgetunnel = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
-	'proxyip.multacom.fxxk.dedyn.io',
-	'proxyip.vultr.fxxk.dedyn.io',
+	'8.219.238.145',
+	'45.76.186.90',
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
@@ -52,7 +52,7 @@ let socks5DataURL = '';//'https://raw.githubusercontent.com/cmliu/WorkerVless2su
 let BotToken ='';
 let ChatID =''; 
 let proxyhosts = [//本地代理域名池
-	//'ppfv2tl9veojd-maillazy.pages.dev',
+	//'rzki.workers.dev',
 ];
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 let EndPS = '';//节点名备注内容
@@ -259,10 +259,10 @@ export default {
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
-		let host = "";
-		let uuid = "";
-		let path = "";
-		let sni = "";
+		let host = "tes-9x3.pages.dev";
+		let uuid = "799d25bc-c39d-4492-8dfb-5a5c85ae9960";
+		let path = "/?ed=2560";
+		let sni = "tes-9x3.pages.dev";
 		let UD = Math.floor(((timestamp - Date.now())/timestamp * 99 * 1099511627776 * 1024)/2);
 		if (env.UA) MamaJustKilledAMan = MamaJustKilledAMan.concat(await ADD(env.UA));
 
@@ -395,7 +395,7 @@ export default {
 			Missing required parameters: host and uuid
 			پارامترهای ضروری وارد نشده: هاست و یوآی‌دی
 			
-			${url.origin}/sub?host=[your host]&uuid=[your uuid]&path=[your path]
+			${url.origin}/sub?host=[tes-9x3.pages.dev]&uuid=[799d25bc-c39d-4492-8dfb-5a5c85ae9960]&path=[/?ed=2560]
 			
 			
 			
