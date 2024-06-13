@@ -13,7 +13,7 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/baylook/am-tunnel/dev/ipv4.txt'//可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/baylook/dingyueqi/main/ipv4.txt?token=GHSAT0AAAAAACRZVVA2DTBCBL3UXINFLO7MZTKQTMA'//可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
