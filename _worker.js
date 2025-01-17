@@ -42,8 +42,8 @@ let link = '';
 let edgetunnel = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
-	'8.219.238.145',
-	'45.76.186.90',
+	'101.32.247.126',
+	
 ];
 let CMproxyIPs = [
 	//'proxyip.aliyun.fxxk.dedyn.io:HK',//匹配节点名, 有HK就分配该ProxyIP域名
@@ -260,7 +260,7 @@ export default {
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
 		let host = "tes-9x3.pages.dev";
-		let uuid = "799d25bc-c39d-4492-8dfb-5a5c85ae9960";
+		let uuid = "679ad315-8ce4-4bd5-98e5-3cab03a86d7d";
 		let path = "/?ed=2560";
 		let sni = "tes-9x3.pages.dev";
 		let UD = Math.floor(((timestamp - Date.now())/timestamp * 99 * 1099511627776 * 1024)/2);
